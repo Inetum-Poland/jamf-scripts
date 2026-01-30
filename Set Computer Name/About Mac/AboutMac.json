@@ -1,0 +1,72 @@
+{
+	"title": "About Mac",
+	"description": "Unique information about Mac, leveraging Payload Variables — preference domain: com.domain.AboutMac —",
+	"__preferencedomain": "com.domain.AboutMac",
+	"__feedback": "apple@inetum.com",
+	"links": [
+		{
+			"rel": "Payload Variables documentation.",
+			"href": "https://learn.jamf.com/bundle/jamf-pro-documentation-current/page/Computer_Configuration_Profiles.html#ariaid-title2"
+		}
+	],
+	"options": {
+		"remove_empty_properties": true
+	},
+	"properties": {
+		"Hardware UUID": {
+			"title": "Hardware Unique ID",
+			"description": "Unique hardware (motherboard) identifier.",
+			"type": "string",
+			"format": "radio",
+			"options": {
+				"enum_titles": [
+					"UDID"
+				],
+				"infoText": "Key name: Hardware UUID"
+			},
+			"enum": [
+					"$UDID"
+			]
+		},
+		"Jamf Pro ID": {
+			"title": "Jamf Pro ID",
+			"description": "Unique device identifier in Jamf Pro.",
+			"type": "string",
+			"format": "radio",
+			"options": {
+				"enum_titles": [
+					"JSSID"
+				],
+				"infoText": "Key name: Jamf Pro ID"
+			},
+			"enum": [
+					"$JSSID"
+			]
+		},
+		"Management ID": {
+			"title": "Management ID",
+			"description": "Device management ID assigned by Jamf Pro.",
+			"type": "string",
+			"format": "radio",
+			"options": {
+				"enum_titles": [
+					"MANAGEMENTID"
+				],
+				"infoText": "Key name: Management ID"
+			},
+			"enum": [
+					"$MANAGEMENTID"
+			]
+		},
+		"Custom EA": {
+			"title": "Extension Attribute",
+			"description": "Custom Extension Attribute variable in Jamf Pro.",
+			"type": "string",
+			"default": "$EXTENSIONATTRIBUTE_#",
+			"options": {
+				"infoText": "Key name: Custom EA"
+			}
+		}
+	},
+	"required": ["Jamf Pro ID"]
+}

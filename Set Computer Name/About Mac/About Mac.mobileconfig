@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>About Mac</string>
+	<key>PayloadDescription</key>
+	<string>Unique information about this Mac</string>
+	<key>PayloadOrganization</key>
+	<!-- Remember to adjust the organization name below! -->
+	<string>Inetum Polska Sp. z o.o.</string>
+	<key>PayloadIdentifier</key>
+	<string>E0C50B78-AB51-49E4-9D5D-C3B1F1854E00</string>
+	<key>PayloadUUID</key>
+	<string>E0C50B78-AB51-49E4-9D5D-C3B1F1854E00</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Hardware UUID</key>
+			<string>$UDID</string>
+			<key>Jamf Pro ID</key>
+			<string>$JSSID</string>
+			<key>Management ID</key>
+			<string>$MANAGEMENTID</string>
+			<!-- <key>Custom EA</key>
+			<string>$EXTENSIONATTRIBUTE_#</string> -->
+			<key>PayloadType</key>
+			<!-- Remember to adjust the prefernce domain below! -->
+			<string>com.domain.AboutMac</string>
+			<key>PayloadIdentifier</key>
+			<string>8AA58C50-AFAB-436C-8A99-F8D5C007044A</string>
+			<key>PayloadUUID</key>
+			<string>8AA58C50-AFAB-436C-8A99-F8D5C007044A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
