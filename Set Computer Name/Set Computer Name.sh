@@ -5,6 +5,9 @@
 # Author: Bartłomiej Sojka
 # Revision: 20250703
 
+# Licensed under the MIT License.
+# See LICENSE file in the repository for full license text.
+
 # Jamf Parameter Labels:
 # 4. Computer Name prefix (default: MAC):
 # 5. No. of digits after the prefix (default: 5):
