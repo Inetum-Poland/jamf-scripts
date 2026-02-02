@@ -1,13 +1,10 @@
-![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
-![Jamf](https://img.shields.io/badge/managed%20by-Jamf-black)
+# Jamf Pro – Device Compliance Prompt
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
+![Jamf Pro](https://img.shields.io/badge/Jamf-Pro-blue)
 ![Shell](https://img.shields.io/badge/shell-zsh-green)
-
-# Jamf Pro – Device Compliance Prompt
-
-A super simple zsh script for Jamf Pro that prompts the currently logged-in macOS user with a dialog, and (after they click **OK**) opens **Jamf Self Service** directly to a specific **policy** using a deep link.
-
-# Jamf Pro – Device Compliance Prompt
+![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)
 
 A super simple zsh script for Jamf Pro that prompts the currently logged-in macOS user with a dialog, and (after they click **OK**) opens **Jamf Self Service** directly to a specific **policy** using a deep link.
 
@@ -63,6 +60,6 @@ When the user clicks **OK**, Self Service opens to:
 
 ## License
 
-Licensed under the MIT License  
-Copyright © 2026 Inetum Poland.  
+Licensed under the MIT License.
+Copyright © 2026 Inetum Polska Sp. z o.o.
 Authored by Dawid Konopnicki.
