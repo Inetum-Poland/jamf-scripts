@@ -1,10 +1,13 @@
 #!/bin/zsh
 # shellcheck shell=bash
-
-# Mobile Device Apps Report
-# Inetum Polska Sp. z o.o.
+#
+# Jamf Pro – Device Compliance Prompt
+#
 # Author: Dawid Konopnicki
-# Revision: 20260119
+# Copyright (c) 2026 Inetum Poland
+#
+# Licensed under the MIT License.
+# See LICENSE file in the repository for full license text.
 
 # ===============================================================
 # Jamf Pro – Prompt user to run Self Service policy
