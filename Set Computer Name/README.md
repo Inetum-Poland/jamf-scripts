@@ -1,10 +1,10 @@
 # Set Computer Name
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
-![Jamf Pro](https://img.shields.io/badge/Jamf-Pro-blue)
-![Shell](https://img.shields.io/badge/shell-zsh-green)
-![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)
+[![License: MIT](https://img.shields.io/github/license/Inetum-Poland/jamf-scripts?color=yellow)](https://github.com/Inetum-Poland/jamf-scripts?tab=MIT-1-ov-file#)
+[![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](#)
+[![MDM: Jamf Pro](https://img.shields.io/badge/MDM-Jamf%20Pro-blue)](#)
+[![Shell](https://img.shields.io/badge/shell-zsh-green)](#)
+[![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)](#)
 
 **Jamf Pro script created by Inetum Poland that enforces a standardized computer naming convention based on the Jamf Pro ID.**
 

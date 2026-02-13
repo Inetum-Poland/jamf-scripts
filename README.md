@@ -1,9 +1,9 @@
 # Jamf Pro Scripts
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
-![Jamf Pro](https://img.shields.io/badge/Jamf-Pro-blue)
-![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)
+[![License: MIT](https://img.shields.io/github/license/Inetum-Poland/jamf-scripts?color=yellow)](https://github.com/Inetum-Poland/jamf-scripts?tab=MIT-1-ov-file#)
+[![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](#)
+[![MDM: Jamf Pro](https://img.shields.io/badge/MDM-Jamf%20Pro-blue)](#)
+[![ShellCheck](https://img.shields.io/badge/ShellCheck-passing-brightgreen)](#)
 
 A collection of small, focused automation scripts for Jamf Pro–managed macOS environments.
 
